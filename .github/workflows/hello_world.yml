@@ -17,6 +17,7 @@ jobs:
       shell : bash
   goodbye:
     steps:
+      -uses: actions/checkout@v3
       -name : goodbye_world
       run: echo "goodbye world"
       shell : bash
