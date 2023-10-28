@@ -1,0 +1,7 @@
+name: "Lable new full requests"
+description: "Add a lable"
+author: "Simson"
+
+runs:
+  using: "node18"
+  main: "dist/index.js"
